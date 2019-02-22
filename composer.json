@@ -1,0 +1,27 @@
+{
+    "name": "rubensaid/ruc",
+    "description": "Package para consultar numero de RUC de Peru",
+    "type": "library",
+    "keywords": ["SUNAT", "Peru", "PHP", "Consulta", "RUC", "Buscar"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ruben Felix",
+            "email": "rubensaid12@gmail.com",
+            "homepage" : "https://linkedin.com/in/rubensaid",
+            "role" : "Developers"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "require-dev": {
+        "php": ">=5.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "RUC":"src/"
+        }
+    }
+}
